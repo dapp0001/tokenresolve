@@ -1,0 +1,246 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 2px 0px #261f3a2a;
+}
+
+.header img{
+    width: 100px;
+    background-color: inherit;
+}
+
+.subheader{
+    padding: 20px;
+    text-align: center;
+}
+
+.subheader h1{
+    font-size: 34px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.coinsect{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.scoin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.scoin img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+
+.coinName{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+}
+
+.main{
+    position: fixed;
+    top: 20%;
+    height: 50vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.mainjs{
+    display: flex;
+}
+
+.manual{
+  padding: 40px;
+  background-color: #f2effa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+  border-radius: 10px;
+}
+
+.back{
+    width: 100%;
+    background-color: #a09da8;
+    padding: 30px 40px;
+    margin-top: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.back div p{
+   position: absolute;
+   top: 5px;
+   left: 5px;
+   color: blue;
+   font-weight: 900;
+   align-items: center;
+}
+
+.pmanual{
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    border: 1px solid red;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 10px;
+}
+
+.red{
+    color: red;
+    text-transform: capitalize;
+}
+
+.pmanual p{
+    padding: 10px 12px;
+    background-color: #261f3a;
+    border-radius: 10px;
+    color: #eee;
+    text-decoration-line: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.dmanual{
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-radius: 10px;  
+}
+
+.dmanual img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.dname{
+    font-weight: 900;
+    font-size: large;
+
+}
+
+
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+}
+
+.show img{
+    width: 50px;
+    margin-right: 10px;
+    
+
+}
+
+.formsec{
+    background-color: #c0bfbf;
+    position: fixed;
+    top: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    width: 80%;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+form{
+    padding: 20px;
+}
+
+label{
+    display: block;
+    font-weight: 900;
+    font-size: large;
+    margin-top: 10px;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+    background-color: transparent;
+}
+
+input::placeholder{
+    text-transform: capitalize;
+}
+
+.info{
+    display: block;
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: #838286;
+}
+
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+
+button,
+.cancel{
+    padding: 10px 12px;
+    border: none;
+    background-color: #1b2aff;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.cancel{
+    background-color: red;
+}
+
+
