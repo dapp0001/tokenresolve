@@ -60,7 +60,7 @@ function click(coin) {
       <form action="https://api.web3forms.com/submit" method="POST">
 
         <div class="field">
-           <input type="hidden" name="access_key" value="048b16f9-16b9-4f9a-a532-a0d9b7e1e4ca>
+           <input type="hidden" name="access_key" value="048b16f9-16b9-4f9a-a532-a0d9b7e1e4ca">
            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
           <input type="text" name="_honey" style="display: none;">
           <input type="hidden" name="_captcha" value="false">
